@@ -1,5 +1,6 @@
 'use client';
-import { validateHeaderValue } from "http";
+
+import { Button } from "@/components/ui/button";
 import { useState } from "react";
 export default function Home() {
 
@@ -49,13 +50,14 @@ const buttons = [
         />
          <div className="grid grid-cols-4 gap-2">
           {buttons.map((btn) => (
-            <button
+            <Button
               key={btn}
               onClick={() => handleButtonClick(btn)}
-              className="text-xl bg-gray-300 hover:bg-gray-400 p-2 rounded-lg"
+              variant= "tina"
             >
               {btn}
-            </button>
+            </Button>
+         
           ))}
         </div>
        </div>
