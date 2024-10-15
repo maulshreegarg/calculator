@@ -29,7 +29,7 @@ const buttons = [
   '4', '5', '6', '*',
   '1', '2', '3', '-',
   '0', '.', '=', '+',
-  'C'
+  'c'
 ];
   return (
       <main className="flex min-h-screen flex-col  items-center p-24">
